@@ -4,63 +4,76 @@ using UnityEngine.AI;
 public class SimpleAnimalAI : MonoBehaviour
 {
     public float wanderRadius = 10f;
-    public float wanderTimer = 5f;
-    public float idleTime = 3f;
+    public float waitTime = 3f;
+    public float minSpeed = 1f;
+    public float maxSpeed = 3f;
 
     private NavMeshAgent agent;
-    private float timer;
     private Animator animator;
-    private float idleTimer;
-    private bool isIdle;
+
+    private float currentSpeed;
+    private float targetSpeed;
+
+    private bool isWaiting;
+    private float waitTimer;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        animator = GetComponent<Animator>(); // Optional
-        timer = wanderTimer;
+        animator = GetComponent<Animator>();
+
+        GoToNewRandomPosition();
     }
 
     void Update()
     {
-        timer += Time.deltaTime;
+        // Smoothly interpolate to target speed
+        currentSpeed = Mathf.Lerp(currentSpeed, targetSpeed, Time.deltaTime * 2f);
+        agent.speed = currentSpeed;
 
-        if (isIdle)
+        if (isWaiting)
         {
-            idleTimer += Time.deltaTime;
-            if (idleTimer >= idleTime)
+            waitTimer += Time.deltaTime;
+            if (waitTimer >= waitTime)
             {
-                isIdle = false;
-                timer = wanderTimer; // Force new destination
+                isWaiting = false;
+                GoToNewRandomPosition();
             }
         }
-        else if (timer >= wanderTimer)
+        else if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance && !agent.hasPath)
         {
-            Vector3 newPos = RandomNavSphere(transform.position, wanderRadius, -1);
-            agent.SetDestination(newPos);
-            timer = 0;
-            isIdle = true;
-            idleTimer = 0;
-
-            if (animator) animator.SetTrigger("Walk"); // Optional
+            isWaiting = true;
+            waitTimer = 0f;
         }
 
-        // Check if reached destination
-        if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance && !agent.hasPath)
+        // Update animator blend tree
+        if (animator)
         {
-            if (animator) animator.SetTrigger("Idle"); // Optional
+            float normalizedSpeed = agent.velocity.magnitude;
+            animator.SetFloat("Speed", normalizedSpeed, 0.1f, Time.deltaTime);
+
         }
+    }
+
+    void GoToNewRandomPosition()
+    {
+        Vector3 newPos = RandomNavSphere(transform.position, wanderRadius, -1);
+        agent.SetDestination(newPos);
+
+        // Assign a new random speed
+        targetSpeed = Random.Range(minSpeed, maxSpeed);
+        if (currentSpeed == 0f) currentSpeed = targetSpeed;
     }
 
     public static Vector3 RandomNavSphere(Vector3 origin, float dist, int layermask)
     {
-        for (int i = 0; i < 10; i++) // Try up to 10 times
+        for (int i = 0; i < 10; i++)
         {
             Vector3 randDirection = Random.insideUnitSphere * dist;
             randDirection += origin;
 
             if (NavMesh.SamplePosition(randDirection, out NavMeshHit navHit, dist, layermask))
             {
-                // Check if there's a direct path
                 if (!Physics.Linecast(origin, navHit.position))
                 {
                     return navHit.position;
@@ -68,7 +81,6 @@ public class SimpleAnimalAI : MonoBehaviour
             }
         }
 
-        return origin; // Fallback
+        return origin;
     }
-
 }
