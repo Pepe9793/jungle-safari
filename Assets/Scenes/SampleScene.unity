@@ -690,9 +690,9 @@ Terrain:
   m_TerrainData: {fileID: 15600000, guid: dbc39c4306bd95f48a4a343a8cb59203, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
+  m_TreeCrossFadeLength: 1
   m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
+  m_DetailObjectDistance: 66
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
@@ -717,7 +717,7 @@ Terrain:
   m_AllowAutoConnect: 1
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
-  m_TreeMotionVectorModeOverride: 3
+  m_TreeMotionVectorModeOverride: 0
 --- !u!4 &50835537
 Transform:
   m_ObjectHideFlags: 0
@@ -18837,7 +18837,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 491014, guid: 4422c3c321790fa49adef7b4dac64090, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.4
+      value: -35.6
       objectReference: {fileID: 0}
     - target: {fileID: 491014, guid: 4422c3c321790fa49adef7b4dac64090, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18845,7 +18845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 491014, guid: 4422c3c321790fa49adef7b4dac64090, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -108.5
+      value: -87.1
       objectReference: {fileID: 0}
     - target: {fileID: 491014, guid: 4422c3c321790fa49adef7b4dac64090, type: 3}
       propertyPath: m_LocalRotation.w
