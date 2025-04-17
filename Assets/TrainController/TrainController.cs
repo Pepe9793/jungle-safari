@@ -6,6 +6,16 @@ public class TrainController : MonoBehaviour
     public Transform[] wheels;
     public float wheelRotationSpeedMultiplier = 360f;
 
+    [Header("Passenger Coaches")]
+    public Transform[] coaches; // Passenger coaches
+    public float coachSpacing = 2f; // Distance between each coach
+
+
+    [Header("Coach Axis Configuration")]
+    public AlignAxis CoachForwardAxis = AlignAxis.ZAxis;
+    public AlignAxis CoachUpAxis = AlignAxis.YAxis;
+
+
     public SplineContainer Container;
     public float Speed = 5f;
     public LoopMode Loop = LoopMode.Loop;
@@ -88,9 +98,60 @@ public class TrainController : MonoBehaviour
             // Optional: PingPong support
         }
 
+        UpdateCoaches();
+
         UpdateTransformByDistance();
         UpdateWheels();
     }
+
+    void UpdateCoaches()
+    {
+        if (coaches == null || coaches.Length == 0 || m_SplinePath == null) return;
+
+        for (int i = 0; i < coaches.Length; i++)
+        {
+            float coachDistance = m_CurrentDistance - coachSpacing * (i + 1);
+            if (Loop == LoopMode.Loop)
+                coachDistance = (coachDistance + m_TotalLength) % m_TotalLength;
+            else
+                coachDistance = Mathf.Clamp(coachDistance, 0f, m_TotalLength);
+
+            float t = Mathf.Clamp01(coachDistance / m_TotalLength);
+            float easedT = ApplyEasing(t);
+
+            Vector3 position = Container.EvaluatePosition(m_SplinePath, easedT);
+            Vector3 forward = Vector3.forward;
+            Vector3 up = Vector3.up;
+
+            switch (Alignment)
+            {
+                case AlignmentMode.SplineElement:
+                    forward = Container.EvaluateTangent(m_SplinePath, easedT);
+                    up = Container.EvaluateUpVector(m_SplinePath, easedT);
+                    break;
+                case AlignmentMode.SplineObject:
+                    forward = Container.transform.forward;
+                    up = Container.transform.up;
+                    break;
+                case AlignmentMode.World:
+                    forward = Vector3.forward;
+                    up = Vector3.up;
+                    break;
+            }
+
+            Quaternion axisRemap = Quaternion.Inverse(Quaternion.LookRotation(
+                GetAxisVector(CoachForwardAxis),
+                GetAxisVector(CoachUpAxis)
+            ));
+
+            Quaternion rotation = Quaternion.LookRotation(forward, up) * axisRemap;
+
+            coaches[i].position = position;
+            coaches[i].rotation = rotation;
+        }
+    }
+
+
     void UpdateWheels()
     {
         foreach (var wheel in wheels)
