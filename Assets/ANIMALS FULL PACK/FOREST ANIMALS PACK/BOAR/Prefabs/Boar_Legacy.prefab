@@ -920,7 +920,10 @@ GameObject:
   m_Component:
   - component: {fileID: 400374}
   - component: {fileID: 9569048}
+  - component: {fileID: 7387589137307706680}
   - component: {fileID: 20503310}
+  - component: {fileID: 7214891474444515851}
+  - component: {fileID: 7823572811912898470}
   m_Layer: 0
   m_Name: Boar_Legacy
   m_TagString: Untagged
@@ -969,6 +972,23 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7387589137307706680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6dabc81b5260864dbf84a15afdb1c9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionScaleMultiplier: 1.2
+  actionColors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0, a: 1}
+  - {r: 0, g: 0, b: 1, a: 1}
 --- !u!205 &20503310
 LODGroup:
   m_ObjectHideFlags: 0
@@ -1000,6 +1020,40 @@ LODGroup:
     renderers:
     - renderer: {fileID: 13727666}
   m_Enabled: 1
+--- !u!114 &7214891474444515851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2bc1bbcf4e736a4db8e02b5e389f231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roamingArea: {fileID: 0}
+  minActionDuration: 2
+  maxActionDuration: 5
+  actionProbability: 0.3
+  moveSpeedMultiplier: 1
+--- !u!114 &7823572811912898470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3480e2db08a88f44587b8cd04b0a1066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementspeed: 5
+  stopDistance: 0.1
+  rotationspeed: 360
+  destination: {x: 0, y: 0, z: 0}
+  reachedDestinations: 1
 --- !u!1 &160642
 GameObject:
   m_ObjectHideFlags: 0
