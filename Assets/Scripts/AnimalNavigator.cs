@@ -38,7 +38,6 @@ public class AnimalNavigator : MonoBehaviour
     private Vector2[] poly2D;
     private Vector3[] poly3D;
 
-    private bool isWaiting = false;
     private bool isIdlePlaying = false;
 
 
