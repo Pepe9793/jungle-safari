@@ -117,13 +117,6 @@ public class AnimalSpawner : MonoBehaviour
                 nav.roamingArea = animalSettings.spawnArea;
                 var method = typeof(AnimalNavigator).GetMethod("InitializeNavigationArea", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
                 method?.Invoke(nav, null);
-
-                // Ensure nearbyAnimals list exists
-                if (nav.nearbyAnimals == null)
-                    nav.nearbyAnimals = new List<GameObject>();
-
-                // Register all previously spawned animals for flocking
-                nav.nearbyAnimals.AddRange(spawnedAnimals);
             }
 
             spawnedAnimals.Add(animal);

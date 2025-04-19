@@ -697,9 +697,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4477821680892430380}
   - component: {fileID: 6062634032869763667}
-  - component: {fileID: 73392865921758664}
   - component: {fileID: 8420798950673247037}
-  - component: {fileID: 7426254315955981800}
   - component: {fileID: 4830483538332376560}
   m_Layer: 0
   m_Name: BoarFbx
@@ -749,22 +747,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &73392865921758664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5140388882593634925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6dabc81b5260864dbf84a15afdb1c9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actionTriggers:
-  - Eat
-  - Attack
-  - AttackFwd
 --- !u!114 &8420798950673247037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -778,27 +760,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roamingArea: {fileID: 0}
-  actionProbability: 1
-  movementSpeed: 20
+  speedVariations:
+  - 5
+  - 20
   fixedPlaneY: 0
-  nearbyAnimals: []
---- !u!114 &7426254315955981800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5140388882593634925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3480e2db08a88f44587b8cd04b0a1066, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementspeed: 20
-  stopDistance: 0.1
-  rotationspeed: 360
-  destination: {x: 0, y: 0, z: 0}
-  reachedDestinations: 1
+  idleDelayMin: 0.5
+  idleDelayMax: 2
 --- !u!205 &4830483538332376560
 LODGroup:
   m_ObjectHideFlags: 0
