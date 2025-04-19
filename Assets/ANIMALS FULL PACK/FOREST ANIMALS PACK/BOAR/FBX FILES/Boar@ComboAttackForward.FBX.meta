@@ -1,105 +1,257 @@
 fileFormatVersion: 2
 guid: 88ea2ec286f238a42a6b028f87521f69
-timeCreated: 1501870013
-licenseType: Store
 ModelImporter:
-  serializedVersion: 18
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: BOAR_
-    100004: BOAR_ Head
-    100006: BOAR_ L Calf
-    100008: BOAR_ L Clavicle
-    100010: BOAR_ L Finger0
-    100012: BOAR_ L Foot
-    100014: BOAR_ L Forearm
-    100016: BOAR_ L Hand
-    100018: BOAR_ L HorseLink
-    100020: BOAR_ L Thigh
-    100022: BOAR_ L Toe0
-    100024: BOAR_ L UpperArm
-    100026: BOAR_ Neck
-    100028: BOAR_ Neck1
-    100030: BOAR_ Pelvis
-    100032: BOAR_ Queue de cheval 1
-    100034: BOAR_ R Calf
-    100036: BOAR_ R Clavicle
-    100038: BOAR_ R Finger0
-    100040: BOAR_ R Foot
-    100042: BOAR_ R Forearm
-    100044: BOAR_ R Hand
-    100046: BOAR_ R HorseLink
-    100048: BOAR_ R Thigh
-    100050: BOAR_ R Toe0
-    100052: BOAR_ R UpperArm
-    100054: BOAR_ Spine
-    100056: BOAR_ Spine1
-    100058: BOAR_ Tail
-    100060: BOAR_ Tail1
-    100062: BOAR_ Tail2
-    100064: BOAR_ Tail3
-    100066: BOAR_ Tail4
-    100068: root
-    400000: //RootNode
-    400002: BOAR_
-    400004: BOAR_ Head
-    400006: BOAR_ L Calf
-    400008: BOAR_ L Clavicle
-    400010: BOAR_ L Finger0
-    400012: BOAR_ L Foot
-    400014: BOAR_ L Forearm
-    400016: BOAR_ L Hand
-    400018: BOAR_ L HorseLink
-    400020: BOAR_ L Thigh
-    400022: BOAR_ L Toe0
-    400024: BOAR_ L UpperArm
-    400026: BOAR_ Neck
-    400028: BOAR_ Neck1
-    400030: BOAR_ Pelvis
-    400032: BOAR_ Queue de cheval 1
-    400034: BOAR_ R Calf
-    400036: BOAR_ R Clavicle
-    400038: BOAR_ R Finger0
-    400040: BOAR_ R Foot
-    400042: BOAR_ R Forearm
-    400044: BOAR_ R Hand
-    400046: BOAR_ R HorseLink
-    400048: BOAR_ R Thigh
-    400050: BOAR_ R Toe0
-    400052: BOAR_ R UpperArm
-    400054: BOAR_ Spine
-    400056: BOAR_ Spine1
-    400058: BOAR_ Tail
-    400060: BOAR_ Tail1
-    400062: BOAR_ Tail2
-    400064: BOAR_ Tail3
-    400066: BOAR_ Tail4
-    400068: root
-    7400000: ComboAttackForward
-    9500000: //RootNode
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: BOAR_
+  - first:
+      1: 100004
+    second: BOAR_ Head
+  - first:
+      1: 100006
+    second: BOAR_ L Calf
+  - first:
+      1: 100008
+    second: BOAR_ L Clavicle
+  - first:
+      1: 100010
+    second: BOAR_ L Finger0
+  - first:
+      1: 100012
+    second: BOAR_ L Foot
+  - first:
+      1: 100014
+    second: BOAR_ L Forearm
+  - first:
+      1: 100016
+    second: BOAR_ L Hand
+  - first:
+      1: 100018
+    second: BOAR_ L HorseLink
+  - first:
+      1: 100020
+    second: BOAR_ L Thigh
+  - first:
+      1: 100022
+    second: BOAR_ L Toe0
+  - first:
+      1: 100024
+    second: BOAR_ L UpperArm
+  - first:
+      1: 100026
+    second: BOAR_ Neck
+  - first:
+      1: 100028
+    second: BOAR_ Neck1
+  - first:
+      1: 100030
+    second: BOAR_ Pelvis
+  - first:
+      1: 100032
+    second: BOAR_ Queue de cheval 1
+  - first:
+      1: 100034
+    second: BOAR_ R Calf
+  - first:
+      1: 100036
+    second: BOAR_ R Clavicle
+  - first:
+      1: 100038
+    second: BOAR_ R Finger0
+  - first:
+      1: 100040
+    second: BOAR_ R Foot
+  - first:
+      1: 100042
+    second: BOAR_ R Forearm
+  - first:
+      1: 100044
+    second: BOAR_ R Hand
+  - first:
+      1: 100046
+    second: BOAR_ R HorseLink
+  - first:
+      1: 100048
+    second: BOAR_ R Thigh
+  - first:
+      1: 100050
+    second: BOAR_ R Toe0
+  - first:
+      1: 100052
+    second: BOAR_ R UpperArm
+  - first:
+      1: 100054
+    second: BOAR_ Spine
+  - first:
+      1: 100056
+    second: BOAR_ Spine1
+  - first:
+      1: 100058
+    second: BOAR_ Tail
+  - first:
+      1: 100060
+    second: BOAR_ Tail1
+  - first:
+      1: 100062
+    second: BOAR_ Tail2
+  - first:
+      1: 100064
+    second: BOAR_ Tail3
+  - first:
+      1: 100066
+    second: BOAR_ Tail4
+  - first:
+      1: 100068
+    second: root
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: BOAR_
+  - first:
+      4: 400004
+    second: BOAR_ Head
+  - first:
+      4: 400006
+    second: BOAR_ L Calf
+  - first:
+      4: 400008
+    second: BOAR_ L Clavicle
+  - first:
+      4: 400010
+    second: BOAR_ L Finger0
+  - first:
+      4: 400012
+    second: BOAR_ L Foot
+  - first:
+      4: 400014
+    second: BOAR_ L Forearm
+  - first:
+      4: 400016
+    second: BOAR_ L Hand
+  - first:
+      4: 400018
+    second: BOAR_ L HorseLink
+  - first:
+      4: 400020
+    second: BOAR_ L Thigh
+  - first:
+      4: 400022
+    second: BOAR_ L Toe0
+  - first:
+      4: 400024
+    second: BOAR_ L UpperArm
+  - first:
+      4: 400026
+    second: BOAR_ Neck
+  - first:
+      4: 400028
+    second: BOAR_ Neck1
+  - first:
+      4: 400030
+    second: BOAR_ Pelvis
+  - first:
+      4: 400032
+    second: BOAR_ Queue de cheval 1
+  - first:
+      4: 400034
+    second: BOAR_ R Calf
+  - first:
+      4: 400036
+    second: BOAR_ R Clavicle
+  - first:
+      4: 400038
+    second: BOAR_ R Finger0
+  - first:
+      4: 400040
+    second: BOAR_ R Foot
+  - first:
+      4: 400042
+    second: BOAR_ R Forearm
+  - first:
+      4: 400044
+    second: BOAR_ R Hand
+  - first:
+      4: 400046
+    second: BOAR_ R HorseLink
+  - first:
+      4: 400048
+    second: BOAR_ R Thigh
+  - first:
+      4: 400050
+    second: BOAR_ R Toe0
+  - first:
+      4: 400052
+    second: BOAR_ R UpperArm
+  - first:
+      4: 400054
+    second: BOAR_ Spine
+  - first:
+      4: 400056
+    second: BOAR_ Spine1
+  - first:
+      4: 400058
+    second: BOAR_ Tail
+  - first:
+      4: 400060
+    second: BOAR_ Tail1
+  - first:
+      4: 400062
+    second: BOAR_ Tail2
+  - first:
+      4: 400064
+    second: BOAR_ Tail3
+  - first:
+      4: 400066
+    second: BOAR_ Tail4
+  - first:
+      4: 400068
+    second: root
+  - first:
+      74: 7400000
+    second: ComboAttackForward
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 0
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: ComboAttackForward
       takeName: Take 001
+      internalID: 0
       firstFrame: 0
       lastFrame: 80
       wrapMode: 0
@@ -107,7 +259,8 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1
@@ -208,45 +361,78 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 1
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: root
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: cd536858e900a2e46bcbd905a326fab5,
-    type: 3}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: cd536858e900a2e46bcbd905a326fab5, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -249,49 +249,41 @@ public class ClosedAreaEditorWindow : EditorWindow
         var pts = area.points;
         int count = pts.Count;
 
-        // Draw all edges lightly
-        Handles.color = new Color(area.areaColor.r, area.areaColor.g, area.areaColor.b, 0.3f);
+        // Draw boundary lines
+        Handles.color = new Color(area.lineColor.r, area.lineColor.g, area.lineColor.b, 0.8f);
         for (int i = 0; i < count; i++)
-            Handles.DrawLine(pts[i].position, pts[(i + 1) % count].position);
+            Handles.DrawAAPolyLine(area.lineThickness, pts[i].position, pts[(i + 1) % count].position);
 
-        // Draw clickable handles for each point
+        // Draw points with enhanced visibility
         for (int i = 0; i < count; i++)
         {
             Transform t = pts[i];
             Vector3 pos = t.position;
-            float size = HandleUtility.GetHandleSize(pos) * 0.1f;
-            if (Handles.Button(pos, Quaternion.identity, size, size, Handles.SphereHandleCap))
+            float handleSize = HandleUtility.GetHandleSize(pos) * area.pointSize;
+
+            // Unselected points
+            Handles.color = area.pointColor;
+            if (Handles.Button(pos, Quaternion.identity, handleSize, handleSize, Handles.SphereHandleCap))
                 Selection.activeGameObject = t.gameObject;
         }
 
-        // Highlight & move selected point
+        // Highlight selected point
         var sel = Selection.activeTransform;
         if (sel != null && sel.parent == area.transform)
         {
             int idx = sel.GetSiblingIndex();
+            float handleSize = HandleUtility.GetHandleSize(pts[idx].position) * area.pointSize * 1.2f;
 
-            // Highlight adjacent edges
-            Handles.color = Color.yellow;
-            Handles.DrawLine(pts[idx].position, pts[(idx + 1) % count].position);
-            Handles.DrawLine(pts[(idx - 1 + count) % count].position, pts[idx].position);
-
-            // Highlight the point
+            // Selected point
             Handles.color = Color.white;
-            float sz = HandleUtility.GetHandleSize(pts[idx].position) * 0.15f;
-            Handles.SphereHandleCap(0, pts[idx].position, Quaternion.identity, sz, EventType.Repaint);
+            Handles.SphereHandleCap(0, pts[idx].position, Quaternion.identity, handleSize, EventType.Repaint);
 
-            // Draggable handle (edit & runtime if allowed)
-            if (!Application.isPlaying || runtimeEditing)
-            {
-                EditorGUI.BeginChangeCheck();
-                Vector3 np = Handles.PositionHandle(pts[idx].position, Quaternion.identity);
-                if (EditorGUI.EndChangeCheck())
-                {
-                    Undo.RecordObject(pts[idx], "Move Point");
-                    pts[idx].position = np;
-                    SyncPoints();
-                }
-            }
+            // Adjacent line highlights
+            Handles.color = Color.yellow;
+            Handles.DrawAAPolyLine(area.lineThickness * 2,
+                pts[(idx - 1 + count) % count].position,
+                pts[idx].position,
+                pts[(idx + 1) % count].position);
         }
     }
 }

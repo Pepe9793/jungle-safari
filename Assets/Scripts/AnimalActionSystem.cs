@@ -1,4 +1,4 @@
-// AnimalActionSystem.cs
+// AnimalActionSystem.cs (modified)
 using UnityEngine;
 
 public class AnimalActionSystem : MonoBehaviour
@@ -10,13 +10,26 @@ public class AnimalActionSystem : MonoBehaviour
 
     void Awake()
     {
-        animalAnimator = GetComponent<Animator>();
+        animalAnimator = GetComponentInChildren<Animator>();
     }
 
-    public void PerformRandomAction()
+    // Returns both the trigger name and its animation duration
+    public (string trigger, float duration) PerformRandomAction()
     {
         string randomTrigger = actionTriggers[Random.Range(0, actionTriggers.Length)];
         animalAnimator.SetTrigger(randomTrigger);
-        Debug.Log($"Triggered animation: {randomTrigger}");
+        float duration = GetAnimationClipLength(randomTrigger);
+        return (randomTrigger, duration);
+    }
+
+    // Public method to get the duration of an animation
+    public float GetAnimationClipLength(string name)
+    {
+        foreach (var clip in animalAnimator.runtimeAnimatorController.animationClips)
+        {
+            if (clip.name == name)
+                return clip.length;
+        }
+        return 0f; // Fallback
     }
 }

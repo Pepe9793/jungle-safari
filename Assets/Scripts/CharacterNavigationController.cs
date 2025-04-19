@@ -41,10 +41,7 @@ public class CharacterNavigationController : MonoBehaviour
                 // Set animation parameter
                 animator.SetFloat("Speed", movementspeed); // Use your actual parameter name
 
-                if (Physics.Raycast(transform.position + Vector3.up * 0.5f, Vector3.down, out RaycastHit hit, 1f))
-                {
-                    transform.position = new Vector3(transform.position.x, hit.point.y, transform.position.z);
-                }
+                transform.position = new Vector3(transform.position.x, 0, transform.position.z);
             }
             else
             {
