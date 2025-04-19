@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Splines;
 
 public class TrainController : MonoBehaviour
@@ -53,10 +53,39 @@ public class TrainController : MonoBehaviour
     bool isDecelerating = false;
     float originalSpeed;
 
+    [Header("Engine Audio")]
+    public AudioClip acceleratingClip;        // e.g. "Steam Train Accelerating"
+    public AudioClip steadyChugClip;         // e.g. "Steam Train Runs Steady with Engine Chugs"
+    [Range(0, 1)] public float audioBlendPower = 1f; // exponent for more/less aggressive crossfade
+    [Range(0f, 5f)] public float overallVolumeMultiplier = 1f;
+    public float minPitch = 0.8f;
+    public float maxPitch = 2f;
+    [Range(0f, 1f)] public float minSteadyVolume = 0.3f; // Minimum volume for steady sound
+    [Range(0f, 1f)] public float maxAccelVolume = 1f;     // Maximum volume for acceleration sound
+
+    AudioSource _accelSource;
+    AudioSource _steadySource;
+    float _maxSpeed;
     void Awake()
     {
         m_InitialRotation = transform.rotation;
         if (PlayOnAwake) Play();
+
+        // === AUDIO SETUP ===
+        _accelSource = gameObject.AddComponent<AudioSource>();
+        _accelSource.clip = acceleratingClip;
+        _accelSource.loop = true;
+        _accelSource.playOnAwake = false;
+        _accelSource.spatialBlend = 1f; // 3D sound
+
+        _steadySource = gameObject.AddComponent<AudioSource>();
+        _steadySource.clip = steadyChugClip;
+        _steadySource.loop = true;
+        _steadySource.playOnAwake = false;
+        _steadySource.spatialBlend = 1f; // 3D sound
+
+        // Remember the "original" (top) speed for normalization
+        _maxSpeed = Speed;
     }
 
     void OnEnable()
@@ -69,6 +98,9 @@ public class TrainController : MonoBehaviour
             m_TotalLength = m_SplineLength;
             m_CurrentDistance = StartOffset * m_TotalLength;
         }
+
+        if (acceleratingClip != null) _accelSource.Play();
+        if (steadyChugClip != null) _steadySource.Play();
     }
 
     void Update()
@@ -98,11 +130,26 @@ public class TrainController : MonoBehaviour
             // Optional: PingPong support
         }
 
+        float speed01 = Mathf.Clamp01(Speed / _maxSpeed);
+        speed01 = Mathf.Pow(speed01, audioBlendPower);
+
+        // Adjust pitch with a minimum threshold
+        float pitch = Mathf.Lerp(minPitch, maxPitch, speed01);
+        _accelSource.pitch = pitch;
+        _steadySource.pitch = pitch;
+
+        // Ensure steady audio is audible even at low speeds
+        _accelSource.volume = Mathf.Lerp(0f, maxAccelVolume, speed01) * overallVolumeMultiplier;
+        _steadySource.volume = Mathf.Lerp(minSteadyVolume, 1f, (1f - speed01)) * overallVolumeMultiplier;
+
+
+
         UpdateCoaches();
 
         UpdateTransformByDistance();
         UpdateWheels();
     }
+
 
     void UpdateCoaches()
     {
