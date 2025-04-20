@@ -2,82 +2,82 @@
 
 public class TrainEnterExitSystem : MonoBehaviour
 {
-    public Camera trainCamera;
+    public Transform train;
+    public Transform player;
+    public GameObject playerCam;
+    public GameObject trainCam;
+    public GameObject interactionUI;
+    public Vector3 exitOffset = new Vector3(2f, 0f, 0f);
     public KeyCode interactionKey = KeyCode.E;
-    public Vector3 exitOffset = new Vector3(2f, 0f, 0f); // Offset for exit position
 
-    private bool playerInZone = false;
-    private bool isPlayerInTrain = false;
-    private GameObject player;
+    private bool canEnter = false;
+    private bool isInTrain = false;
 
-    private void Start()
+    void Start()
     {
-        if (trainCamera != null)
-            trainCamera.enabled = false;
+        interactionUI.SetActive(false);
+        playerCam.SetActive(true);
+        trainCam.SetActive(false);
     }
 
-    private void Update()
+    void Update()
     {
-        if (playerInZone && !isPlayerInTrain && Input.GetKeyDown(interactionKey))
+        if (canEnter && Input.GetKeyDown(interactionKey) && !isInTrain)
         {
             EnterTrain();
         }
-        else if (isPlayerInTrain && Input.GetKeyDown(interactionKey))
+        else if (isInTrain && Input.GetKeyDown(interactionKey))
         {
             ExitTrain();
         }
     }
 
-    private void EnterTrain()
+    void EnterTrain()
     {
-        isPlayerInTrain = true;
-        if (trainCamera != null)
-            trainCamera.enabled = true;
+        isInTrain = true;
+        interactionUI.SetActive(false);
 
-        if (player != null)
-            player.SetActive(false);
+        player.gameObject.SetActive(false);
+        player.SetParent(train);
+        playerCam.SetActive(false);
+        trainCam.SetActive(true);
     }
 
-    private void ExitTrain()
+    void ExitTrain()
     {
-        isPlayerInTrain = false;
+        isInTrain = false;
 
-        if (trainCamera != null)
-            trainCamera.enabled = false;
+        player.SetParent(null);
+        Vector3 worldExitPos = train.TransformPoint(exitOffset);
+        player.position = worldExitPos;
+        player.rotation = Quaternion.LookRotation(-train.forward);
 
-        if (player != null)
+        player.gameObject.SetActive(true);
+        playerCam.SetActive(true);
+        trainCam.SetActive(false);
+
+        // Prevent immediate re-entry
+        canEnter = false;
+        player = null;
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player") && !isInTrain)
         {
-            // Move player to world exit position
-            Vector3 worldExitPos = transform.TransformPoint(exitOffset);
-            player.transform.position = worldExitPos;
-            player.transform.rotation = Quaternion.LookRotation(-transform.forward);
-
-            player.SetActive(true);
-
-            // ❗ Prevent re-entering without leaving trigger zone
-            playerInZone = false;
-            player = null;
+            interactionUI.SetActive(true);
+            canEnter = true;
+            player = other.transform;
         }
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (!isPlayerInTrain && other.CompareTag("Player"))
-        {
-            playerInZone = true;
-            player = other.gameObject;
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
+    void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            playerInZone = false;
-
-            // Only clear reference if not in train
-            if (!isPlayerInTrain)
-                player = null;
+            interactionUI.SetActive(false);
+            canEnter = false;
+            if (!isInTrain) player = null;
         }
     }
 }

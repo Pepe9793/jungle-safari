@@ -1,5 +1,114 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9108582074991913327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8177023626232322001}
+  - component: {fileID: 3360797978205916702}
+  - component: {fileID: 5905002933061074513}
+  - component: {fileID: 2284385083897088439}
+  m_Layer: 0
+  m_Name: TrainCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8177023626232322001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9108582074991913327}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
+  m_LocalPosition: {x: 0, y: 10, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2250437859630087245}
+  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
+--- !u!20 &3360797978205916702
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9108582074991913327}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &5905002933061074513
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9108582074991913327}
+  m_Enabled: 1
+--- !u!114 &2284385083897088439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9108582074991913327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f48a2498427fa9849ad623e40e2e0198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 2056568448411842031}
+  offset: {x: 0, y: 5, z: -10}
+  followSpeed: 5
+  rotationSpeed: 3
 --- !u!1001 &1779361872796588966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58,14 +167,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2edf6e283a2d9ca498770afda999e85e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8177023626232322001}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2edf6e283a2d9ca498770afda999e85e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4190608118117137339}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2edf6e283a2d9ca498770afda999e85e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6592511942224466160}
   m_SourcePrefab: {fileID: 100100000, guid: 2edf6e283a2d9ca498770afda999e85e, type: 3}
 --- !u!1 &1472951834840082167 stripped
 GameObject:
@@ -93,18 +202,13 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 22.549458, y: 4.8089128, z: 4.1122203}
   m_Center: {x: -0.1423955, y: 1.5107949, z: -0.026486635}
---- !u!114 &6592511942224466160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!4 &2056568448411842031 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 305108058637807177, guid: 2edf6e283a2d9ca498770afda999e85e, type: 3}
+  m_PrefabInstance: {fileID: 1779361872796588966}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1472951834840082167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83a64c108bf152241bca1f77b1fd2bfe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trainCamera: {fileID: 0}
-  interactionKey: 101
-  exitOffset: {x: 0, y: 0, z: -5}
+--- !u!4 &2250437859630087245 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2edf6e283a2d9ca498770afda999e85e, type: 3}
+  m_PrefabInstance: {fileID: 1779361872796588966}
+  m_PrefabAsset: {fileID: 0}

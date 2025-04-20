@@ -71,18 +71,26 @@ public class TrainController : MonoBehaviour
         m_InitialRotation = transform.rotation;
         if (PlayOnAwake) Play();
 
-        // === AUDIO SETUP ===
+        // Engine accelerating source
         _accelSource = gameObject.AddComponent<AudioSource>();
         _accelSource.clip = acceleratingClip;
         _accelSource.loop = true;
         _accelSource.playOnAwake = false;
-        _accelSource.spatialBlend = 1f; // 3D sound
+        _accelSource.spatialBlend = 1f;
+        _accelSource.rolloffMode = AudioRolloffMode.Linear;
+        _accelSource.minDistance = 10f;
+        _accelSource.maxDistance = 100f;
 
+        // Steady chugging source
         _steadySource = gameObject.AddComponent<AudioSource>();
         _steadySource.clip = steadyChugClip;
         _steadySource.loop = true;
         _steadySource.playOnAwake = false;
-        _steadySource.spatialBlend = 1f; // 3D sound
+        _steadySource.spatialBlend = 1f;
+        _steadySource.rolloffMode = AudioRolloffMode.Linear;
+        _steadySource.minDistance = 10f;
+        _steadySource.maxDistance = 100f;
+
 
         // Remember the "original" (top) speed for normalization
         _maxSpeed = Speed;
@@ -99,8 +107,11 @@ public class TrainController : MonoBehaviour
             m_CurrentDistance = StartOffset * m_TotalLength;
         }
 
-        if (acceleratingClip != null) _accelSource.Play();
-        if (steadyChugClip != null) _steadySource.Play();
+        if (m_Playing && Speed > 0f)
+        {
+            if (acceleratingClip != null) _accelSource.Play();
+            if (steadyChugClip != null) _steadySource.Play();
+        }
     }
 
     void Update()
