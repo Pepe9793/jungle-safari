@@ -1,0 +1,1516 @@
+fileFormatVersion: 2
+guid: 7be55b3f03e8da84db64381061b4f8c3
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Hiena_HP
+  - first:
+      1: 100002
+    second: Hiena_LP
+  - first:
+      1: 100004
+    second: Hiena_SLP
+  - first:
+      1: 100006
+    second: hyena_Head_JawSHJnt
+  - first:
+      1: 100008
+    second: hyena_Head_TopSHJnt
+  - first:
+      1: 100010
+    second: hyena_l_Clavicle_01_01SHJnt
+  - first:
+      1: 100012
+    second: hyena_l_Ear_01SHJnt
+  - first:
+      1: 100014
+    second: hyena_l_Eye_01SHJnt
+  - first:
+      1: 100016
+    second: hyena_l_FrontLeg_AnkleSHJnt
+  - first:
+      1: 100018
+    second: hyena_l_FrontLeg_BallSHJnt
+  - first:
+      1: 100020
+    second: hyena_l_FrontLeg_HipSHJnt
+  - first:
+      1: 100022
+    second: hyena_l_FrontLeg_KneeSHJnt
+  - first:
+      1: 100024
+    second: hyena_l_HindLeg_AnkleSHJnt
+  - first:
+      1: 100026
+    second: hyena_l_HindLeg_BallSHJnt
+  - first:
+      1: 100028
+    second: hyena_l_HindLeg_HipSHJnt
+  - first:
+      1: 100030
+    second: hyena_l_HindLeg_Knee1SHJnt
+  - first:
+      1: 100032
+    second: hyena_l_HindLeg_Knee2SHJnt
+  - first:
+      1: 100034
+    second: hyena_Neck_01SHJnt
+  - first:
+      1: 100036
+    second: hyena_Neck_02SHJnt
+  - first:
+      1: 100038
+    second: hyena_Neck_TopSHJnt
+  - first:
+      1: 100040
+    second: hyena_r_Clavicle_01_01SHJnt
+  - first:
+      1: 100042
+    second: hyena_r_Ear_01SHJnt
+  - first:
+      1: 100044
+    second: hyena_r_Eye_01SHJnt
+  - first:
+      1: 100046
+    second: hyena_r_FrontLeg_AnkleSHJnt
+  - first:
+      1: 100048
+    second: hyena_r_FrontLeg_BallSHJnt
+  - first:
+      1: 100050
+    second: hyena_r_FrontLeg_HipSHJnt
+  - first:
+      1: 100052
+    second: hyena_r_FrontLeg_KneeSHJnt
+  - first:
+      1: 100054
+    second: hyena_r_HindLeg_AnkleSHJnt
+  - first:
+      1: 100056
+    second: hyena_r_HindLeg_BallSHJnt
+  - first:
+      1: 100058
+    second: hyena_r_HindLeg_HipSHJnt
+  - first:
+      1: 100060
+    second: hyena_r_HindLeg_Knee1SHJnt
+  - first:
+      1: 100062
+    second: hyena_r_HindLeg_Knee2SHJnt
+  - first:
+      1: 100064
+    second: hyena_ROOTSHJnt
+  - first:
+      1: 100066
+    second: hyena_Spine_01SHJnt
+  - first:
+      1: 100068
+    second: hyena_Spine_02SHJnt
+  - first:
+      1: 100070
+    second: hyena_Spine_03SHJnt
+  - first:
+      1: 100072
+    second: hyena_Spine_TopSHJnt
+  - first:
+      1: 100074
+    second: //RootNode
+  - first:
+      1: 100076
+    second: hyena_Tail_01_01SHJnt
+  - first:
+      1: 100078
+    second: hyena_Tail_01_02SHJnt
+  - first:
+      1: 100080
+    second: hyena_Tail_01_03SHJnt
+  - first:
+      1: 100082
+    second: hyena_Tail_01_04SHJnt
+  - first:
+      1: 100084
+    second: hyena_Tail_01_05SHJnt
+  - first:
+      1: 100086
+    second: RootMotion
+  - first:
+      4: 400000
+    second: Hiena_HP
+  - first:
+      4: 400002
+    second: Hiena_LP
+  - first:
+      4: 400004
+    second: Hiena_SLP
+  - first:
+      4: 400006
+    second: hyena_Head_JawSHJnt
+  - first:
+      4: 400008
+    second: hyena_Head_TopSHJnt
+  - first:
+      4: 400010
+    second: hyena_l_Clavicle_01_01SHJnt
+  - first:
+      4: 400012
+    second: hyena_l_Ear_01SHJnt
+  - first:
+      4: 400014
+    second: hyena_l_Eye_01SHJnt
+  - first:
+      4: 400016
+    second: hyena_l_FrontLeg_AnkleSHJnt
+  - first:
+      4: 400018
+    second: hyena_l_FrontLeg_BallSHJnt
+  - first:
+      4: 400020
+    second: hyena_l_FrontLeg_HipSHJnt
+  - first:
+      4: 400022
+    second: hyena_l_FrontLeg_KneeSHJnt
+  - first:
+      4: 400024
+    second: hyena_l_HindLeg_AnkleSHJnt
+  - first:
+      4: 400026
+    second: hyena_l_HindLeg_BallSHJnt
+  - first:
+      4: 400028
+    second: hyena_l_HindLeg_HipSHJnt
+  - first:
+      4: 400030
+    second: hyena_l_HindLeg_Knee1SHJnt
+  - first:
+      4: 400032
+    second: hyena_l_HindLeg_Knee2SHJnt
+  - first:
+      4: 400034
+    second: hyena_Neck_01SHJnt
+  - first:
+      4: 400036
+    second: hyena_Neck_02SHJnt
+  - first:
+      4: 400038
+    second: hyena_Neck_TopSHJnt
+  - first:
+      4: 400040
+    second: hyena_r_Clavicle_01_01SHJnt
+  - first:
+      4: 400042
+    second: hyena_r_Ear_01SHJnt
+  - first:
+      4: 400044
+    second: hyena_r_Eye_01SHJnt
+  - first:
+      4: 400046
+    second: hyena_r_FrontLeg_AnkleSHJnt
+  - first:
+      4: 400048
+    second: hyena_r_FrontLeg_BallSHJnt
+  - first:
+      4: 400050
+    second: hyena_r_FrontLeg_HipSHJnt
+  - first:
+      4: 400052
+    second: hyena_r_FrontLeg_KneeSHJnt
+  - first:
+      4: 400054
+    second: hyena_r_HindLeg_AnkleSHJnt
+  - first:
+      4: 400056
+    second: hyena_r_HindLeg_BallSHJnt
+  - first:
+      4: 400058
+    second: hyena_r_HindLeg_HipSHJnt
+  - first:
+      4: 400060
+    second: hyena_r_HindLeg_Knee1SHJnt
+  - first:
+      4: 400062
+    second: hyena_r_HindLeg_Knee2SHJnt
+  - first:
+      4: 400064
+    second: hyena_ROOTSHJnt
+  - first:
+      4: 400066
+    second: hyena_Spine_01SHJnt
+  - first:
+      4: 400068
+    second: hyena_Spine_02SHJnt
+  - first:
+      4: 400070
+    second: hyena_Spine_03SHJnt
+  - first:
+      4: 400072
+    second: hyena_Spine_TopSHJnt
+  - first:
+      4: 400074
+    second: //RootNode
+  - first:
+      4: 400076
+    second: hyena_Tail_01_01SHJnt
+  - first:
+      4: 400078
+    second: hyena_Tail_01_02SHJnt
+  - first:
+      4: 400080
+    second: hyena_Tail_01_03SHJnt
+  - first:
+      4: 400082
+    second: hyena_Tail_01_04SHJnt
+  - first:
+      4: 400084
+    second: hyena_Tail_01_05SHJnt
+  - first:
+      4: 400086
+    second: RootMotion
+  - first:
+      43: 4300000
+    second: Hiena_LP
+  - first:
+      43: 4300002
+    second: Hiena_SLP
+  - first:
+      43: 4300004
+    second: Hiena_HP
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      74: 7400002
+    second: Attack Jump
+  - first:
+      74: 7400004
+    second: Attack Paw Right
+  - first:
+      74: 7400006
+    second: Creeping
+  - first:
+      74: 7400008
+    second: Death
+  - first:
+      74: 7400010
+    second: Eating
+  - first:
+      74: 7400012
+    second: Fight Idle
+  - first:
+      74: 7400014
+    second: Go To Sleep
+  - first:
+      74: 7400016
+    second: Sleeping
+  - first:
+      74: 7400018
+    second: Wake Up
+  - first:
+      74: 7400020
+    second: Howling
+  - first:
+      74: 7400022
+    second: Idle Seating
+  - first:
+      74: 7400024
+    second: Running
+  - first:
+      74: 7400026
+    second: Strafe Left
+  - first:
+      74: 7400028
+    second: Strafe Right
+  - first:
+      74: 7400030
+    second: Trapping
+  - first:
+      74: 7400032
+    second: Jumping 01
+  - first:
+      74: 7400034
+    second: Walk
+  - first:
+      74: 7400036
+    second: Walk Back
+  - first:
+      74: 7400038
+    second: Walk Smell
+  - first:
+      74: 7400040
+    second: Winded
+  - first:
+      74: 7400042
+    second: Hit Left
+  - first:
+      74: 7400044
+    second: Hit Right
+  - first:
+      74: 7400046
+    second: Hit Frontz
+  - first:
+      74: 7400048
+    second: Hit Back
+  - first:
+      74: 7400050
+    second: Eating01
+  - first:
+      74: 7400052
+    second: Attack Jaw
+  - first:
+      74: 7400054
+    second: Bind Pose
+  - first:
+      74: 7400056
+    second: Idle
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Hiena_HP
+  - first:
+      137: 13700002
+    second: Hiena_LP
+  - first:
+      137: 13700004
+    second: Hiena_SLP
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Bind Pose
+      takeName: 
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: 
+      internalID: 0
+      firstFrame: 2
+      lastFrame: 101
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack Jump
+      takeName: 
+      internalID: 0
+      firstFrame: 104
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack Paw Right
+      takeName: 
+      internalID: 0
+      firstFrame: 128
+      lastFrame: 158
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Creeping
+      takeName: 
+      internalID: 0
+      firstFrame: 161
+      lastFrame: 209
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death
+      takeName: 
+      internalID: 0
+      firstFrame: 212
+      lastFrame: 236
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Eating
+      takeName: 
+      internalID: 0
+      firstFrame: 238
+      lastFrame: 339
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fight Idle
+      takeName: 
+      internalID: 0
+      firstFrame: 342
+      lastFrame: 394
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Go To Sleep
+      takeName: 
+      internalID: 0
+      firstFrame: 397
+      lastFrame: 420
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sleeping
+      takeName: 
+      internalID: 0
+      firstFrame: 421
+      lastFrame: 483
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wake Up
+      takeName: 
+      internalID: 0
+      firstFrame: 484
+      lastFrame: 509
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Howling
+      takeName: 
+      internalID: 0
+      firstFrame: 511
+      lastFrame: 611
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle Seating
+      takeName: 
+      internalID: 0
+      firstFrame: 614
+      lastFrame: 674
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Running
+      takeName: 
+      internalID: 0
+      firstFrame: 677
+      lastFrame: 691
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Strafe Left
+      takeName: 
+      internalID: 0
+      firstFrame: 694
+      lastFrame: 742
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Strafe Right
+      takeName: 
+      internalID: 0
+      firstFrame: 745
+      lastFrame: 793
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Trapping
+      takeName: 
+      internalID: 0
+      firstFrame: 796
+      lastFrame: 852
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jumping 01
+      takeName: 
+      internalID: 0
+      firstFrame: 855
+      lastFrame: 877
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: 
+      internalID: 0
+      firstFrame: 880
+      lastFrame: 913
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk Back
+      takeName: 
+      internalID: 0
+      firstFrame: 916
+      lastFrame: 948
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk Smell
+      takeName: 
+      internalID: 0
+      firstFrame: 951
+      lastFrame: 983
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Winded
+      takeName: 
+      internalID: 0
+      firstFrame: 986
+      lastFrame: 1046
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit Left
+      takeName: 
+      internalID: 0
+      firstFrame: 1049
+      lastFrame: 1065
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit Right
+      takeName: 
+      internalID: 0
+      firstFrame: 1065
+      lastFrame: 1080
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit Frontz
+      takeName: 
+      internalID: 0
+      firstFrame: 1080
+      lastFrame: 1095
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit Back
+      takeName: 
+      internalID: 0
+      firstFrame: 1095
+      lastFrame: 1110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Eating01
+      takeName: 
+      internalID: 0
+      firstFrame: 1113
+      lastFrame: 1271
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack Jaw
+      takeName: 
+      internalID: 0
+      firstFrame: 1274
+      lastFrame: 1301
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: hyena_sv_ip_mx(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RootMotion
+      parentName: hyena_sv_ip_mx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hyena_ROOTSHJnt
+      parentName: RootMotion
+      position: {x: 0, y: 0.337219, z: -0.03746584}
+      rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hyena_Spine_01SHJnt
+      parentName: hyena_ROOTSHJnt
+      position: {x: -1.2975429e-19, y: 0.020701492, z: 0.081252754}
+      rotation: {x: 0.674745, y: -0, z: -0, w: 0.73805094}
+      scale: {x: 1, y: 1.0000004, z: 1.0000004}
+    - name: hyena_Spine_02SHJnt
+      parentName: hyena_Spine_01SHJnt
+      position: {x: 7.216945e-17, y: 0.085897066, z: 0.0046829614}
+      rotation: {x: -3.8063547e-18, y: 0.9996259, z: 0.027351888, w: -6.1113937e-17}
+      scale: {x: 1.0000007, y: 1, z: 1.0000004}
+    - name: hyena_Spine_03SHJnt
+      parentName: hyena_Spine_02SHJnt
+      position: {x: 9.171341e-17, y: 0.07821547, z: -0.0052548335}
+      rotation: {x: -0.205392, y: -6.617444e-24, z: -6.617444e-24, w: 0.9786798}
+      scale: {x: 1.0000014, y: 1.0000008, z: 1}
+    - name: hyena_Spine_TopSHJnt
+      parentName: hyena_Spine_03SHJnt
+      position: {x: 2.0138392e-17, y: 0.07857071, z: 0.01732119}
+      rotation: {x: 0.6944565, y: -0.6944565, z: -0.13315487, w: -0.1331549}
+      scale: {x: 1.0000008, y: 1.0000011, z: 1.0000005}
+    - name: hyena_l_Clavicle_01_01SHJnt
+      parentName: hyena_Spine_TopSHJnt
+      position: {x: 1.0658141e-16, y: -0.04060036, z: 7.105427e-17}
+      rotation: {x: 0.38024127, y: -0, z: 0.10560241, w: 0.91883874}
+      scale: {x: 0.9999997, y: 0.9999996, z: 0.9999996}
+    - name: hyena_l_FrontLeg_HipSHJnt
+      parentName: hyena_l_Clavicle_01_01SHJnt
+      position: {x: -0.020580802, y: -0.03864778, z: 0.07410531}
+      rotation: {x: -0.6733342, y: -0.16913435, z: 0.621479, w: 0.3630131}
+      scale: {x: 1.0000017, y: 1.0000013, z: 0.9999997}
+    - name: hyena_l_FrontLeg_KneeSHJnt
+      parentName: hyena_l_FrontLeg_HipSHJnt
+      position: {x: -0.10897158, y: 3.5527136e-17, z: -3.5527136e-17}
+      rotation: {x: -0.0045733145, y: 0.03355663, z: -0.01058646, w: 0.99937034}
+      scale: {x: 1.0000004, y: 1, z: 0.99999946}
+    - name: hyena_l_FrontLeg_AnkleSHJnt
+      parentName: hyena_l_FrontLeg_KneeSHJnt
+      position: {x: -0.19332454, y: 6.5725204e-16, z: -7.5495166e-17}
+      rotation: {x: 0.00028540276, y: -0.094579205, z: 0.0048819613, w: 0.9955054}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000001}
+    - name: hyena_l_FrontLeg_BallSHJnt
+      parentName: hyena_l_FrontLeg_AnkleSHJnt
+      position: {x: -0.03787742, y: 1.5099033e-16, z: 0.01403807}
+      rotation: {x: -0.000000036878756, y: 0.7071092, z: -0.000000035070272, w: 0.7071043}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: hyena_r_Clavicle_01_01SHJnt
+      parentName: hyena_Spine_TopSHJnt
+      position: {x: 1.5987211e-16, y: 0.04060036, z: 2.1316282e-16}
+      rotation: {x: 0.000000029802308, y: 0.3802413, z: 0.9188388, w: 0.10560233}
+      scale: {x: 0.9999997, y: 0.9999996, z: 0.9999996}
+    - name: hyena_r_FrontLeg_HipSHJnt
+      parentName: hyena_r_Clavicle_01_01SHJnt
+      position: {x: 0.020580802, y: -0.03864778, z: 0.07410531}
+      rotation: {x: 0.16913474, y: 0.67333376, z: 0.363013, w: 0.6214794}
+      scale: {x: 1.0000008, y: 1, z: 0.99999946}
+    - name: hyena_r_FrontLeg_KneeSHJnt
+      parentName: hyena_r_FrontLeg_HipSHJnt
+      position: {x: -0.10897158, y: 3.6415315e-16, z: 1.4210854e-16}
+      rotation: {x: 0.0045729782, y: 0.033557106, z: 0.010586459, w: 0.9993703}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.9999996}
+    - name: hyena_r_FrontLeg_AnkleSHJnt
+      parentName: hyena_r_FrontLeg_KneeSHJnt
+      position: {x: -0.19332454, y: 7.4606985e-16, z: -3.1086245e-17}
+      rotation: {x: -0.00028543905, y: -0.09457788, z: -0.0048817936, w: 0.99550545}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1}
+    - name: hyena_r_FrontLeg_BallSHJnt
+      parentName: hyena_r_FrontLeg_AnkleSHJnt
+      position: {x: -0.03787742, y: 1.5099033e-16, z: 0.01403807}
+      rotation: {x: -0.000000036878752, y: 0.7071092, z: -0.000000035070286, w: 0.7071044}
+      scale: {x: 1, y: 0.9999996, z: 0.9999998}
+    - name: hyena_Neck_01SHJnt
+      parentName: hyena_Spine_TopSHJnt
+      position: {x: -0.06537896, y: -3.5431624e-16, z: 0.0025558306}
+      rotation: {x: -0.49611294, y: -0.49611294, z: 0.5038571, w: 0.503857}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: hyena_Neck_02SHJnt
+      parentName: hyena_Neck_01SHJnt
+      position: {x: 5.3794904e-16, y: 0.001769711, z: 0.06191659}
+      rotation: {x: 0.000000044703473, y: 0.002925887, z: 0.9999957, w: 0.000000029802315}
+      scale: {x: 1.000001, y: 1.0000005, z: 0.99999994}
+    - name: hyena_Neck_TopSHJnt
+      parentName: hyena_Neck_02SHJnt
+      position: {x: -4.3618015e-17, y: 0.0011868537, z: 0.06366155}
+      rotation: {x: -0.0034070038, y: 0.0034069999, z: -0.7070986, w: -0.70709854}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1.0000002}
+    - name: hyena_Head_JawSHJnt
+      parentName: hyena_Neck_TopSHJnt
+      position: {x: 0.056679923, y: 2.8644605e-18, z: 0.041383486}
+      rotation: {x: 0.14186895, y: 0.14186889, z: 0.69272876, w: 0.6927288}
+      scale: {x: 1.0000001, y: 1.0000008, z: 0.9999997}
+    - name: hyena_Head_TopSHJnt
+      parentName: hyena_Neck_TopSHJnt
+      position: {x: -0.07385968, y: 2.6531606e-17, z: 0.0488605}
+      rotation: {x: 0.00000006307167, y: 0.0000000036249364, z: 0.70710677, w: 0.7071068}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.99999994}
+    - name: hyena_l_Eye_01SHJnt
+      parentName: hyena_Head_TopSHJnt
+      position: {x: -0.03346857, y: -0.09594111, z: 0.07016628}
+      rotation: {x: 0.49999994, y: 0.49999994, z: -0.50000006, w: 0.50000006}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: hyena_r_Eye_01SHJnt
+      parentName: hyena_Head_TopSHJnt
+      position: {x: 0.03346857, y: -0.09594111, z: 0.07016628}
+      rotation: {x: 0.49999994, y: 0.49999994, z: -0.50000006, w: 0.50000006}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: hyena_l_Ear_01SHJnt
+      parentName: hyena_Head_TopSHJnt
+      position: {x: -0.06010923, y: -0.02262511, z: -0.0034999715}
+      rotation: {x: 0.7071067, y: 0.000000027989854, z: 0.000000028068815, w: 0.7071068}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: hyena_r_Ear_01SHJnt
+      parentName: hyena_Head_TopSHJnt
+      position: {x: 0.06010923, y: -0.02262511, z: -0.0034999715}
+      rotation: {x: -0.000000031535834, y: 0.7071067, z: -0.7071069, w: -0.000000027989854}
+      scale: {x: 1.0000002, y: 0.9999998, z: 0.99999994}
+    - name: hyena_l_HindLeg_HipSHJnt
+      parentName: hyena_ROOTSHJnt
+      position: {x: -0.058425665, y: -0.037465833, z: -0.017562002}
+      rotation: {x: 0.44851968, y: -0.46908522, z: 0.5027438, w: 0.5709972}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: hyena_l_HindLeg_Knee1SHJnt
+      parentName: hyena_l_HindLeg_HipSHJnt
+      position: {x: -0.11097079, y: -5.3290704e-17, z: -5.3290704e-17}
+      rotation: {x: 0.0019522603, y: -0.43797457, z: -0.005777596, w: 0.8989666}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1}
+    - name: hyena_l_HindLeg_Knee2SHJnt
+      parentName: hyena_l_HindLeg_Knee1SHJnt
+      position: {x: -0.19542915, y: -7.105427e-17, z: 0}
+      rotation: {x: 0.000000010130302, y: 0.4870436, z: -0.000000044090882, w: 0.8733777}
+      scale: {x: 0.9999999, y: 1, z: 1.0000002}
+    - name: hyena_l_HindLeg_AnkleSHJnt
+      parentName: hyena_l_HindLeg_Knee2SHJnt
+      position: {x: -0.08321462, y: 0, z: -1.4210854e-16}
+      rotation: {x: 0.005761662, y: 0.6061138, z: 0.049169295, w: 0.79383576}
+      scale: {x: 1.0000006, y: 1.0000011, z: 1.0000001}
+    - name: hyena_l_HindLeg_BallSHJnt
+      parentName: hyena_l_HindLeg_AnkleSHJnt
+      position: {x: -0.03146277, y: -1.7763568e-17, z: 0.022260267}
+      rotation: {x: 0.000000016110121, y: 0.70710516, z: 0.00000001454381, w: 0.7071085}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000006}
+    - name: hyena_r_HindLeg_HipSHJnt
+      parentName: hyena_ROOTSHJnt
+      position: {x: 0.058425665, y: -0.037465833, z: -0.017562002}
+      rotation: {x: 0.4690853, y: -0.4485197, z: 0.57099724, w: 0.50274366}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: hyena_r_HindLeg_Knee1SHJnt
+      parentName: hyena_r_HindLeg_HipSHJnt
+      position: {x: -0.11097079, y: 0, z: 5.3290704e-17}
+      rotation: {x: -0.0019523352, y: -0.43797457, z: 0.0057775974, w: 0.89896667}
+      scale: {x: 1.0000002, y: 1.0000006, z: 0.9999998}
+    - name: hyena_r_HindLeg_Knee2SHJnt
+      parentName: hyena_r_HindLeg_Knee1SHJnt
+      position: {x: -0.19542915, y: -7.9936054e-17, z: 0}
+      rotation: {x: -0.0000000069144424, y: 0.4870436, z: -0.0000000027186027, w: 0.87337774}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1}
+    - name: hyena_r_HindLeg_AnkleSHJnt
+      parentName: hyena_r_HindLeg_Knee2SHJnt
+      position: {x: -0.08321462, y: 0, z: -1.0658141e-16}
+      rotation: {x: -0.0057615857, y: 0.606114, z: -0.049169227, w: 0.79383576}
+      scale: {x: 1.0000007, y: 1.0000011, z: 1.0000001}
+    - name: hyena_r_HindLeg_BallSHJnt
+      parentName: hyena_r_HindLeg_AnkleSHJnt
+      position: {x: -0.03146277, y: 8.881784e-18, z: 0.022260267}
+      rotation: {x: -0.000000005688844, y: 0.7071051, z: -0.0000000024526046, w: 0.70710856}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000007}
+    - name: hyena_Tail_01_01SHJnt
+      parentName: hyena_ROOTSHJnt
+      position: {x: -2.2430988e-17, y: -0.022814443, z: -0.07733982}
+      rotation: {x: -0.22158745, y: -0.67149013, z: 0.22158745, w: 0.67149013}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: hyena_Tail_01_02SHJnt
+      parentName: hyena_Tail_01_01SHJnt
+      position: {x: -0.047580395, y: -0.0006142328, z: -2.2414465e-17}
+      rotation: {x: -0.016675577, y: 0.012093037, z: 0.078704685, w: 0.99668515}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000008}
+    - name: hyena_Tail_01_03SHJnt
+      parentName: hyena_Tail_01_02SHJnt
+      position: {x: -0.03518076, y: 0.005060824, z: 0.0002646899}
+      rotation: {x: 0.000000052154064, y: -0.000000008381903, z: -0.039214026, w: 0.9992309}
+      scale: {x: 1.0000014, y: 1.0000007, z: 1.0000008}
+    - name: hyena_Tail_01_04SHJnt
+      parentName: hyena_Tail_01_03SHJnt
+      position: {x: -0.033148374, y: -0.00029283337, z: 0.00011525015}
+      rotation: {x: -0.0051978705, y: -0.019678297, z: 0.03726405, w: 0.99909824}
+      scale: {x: 1, y: 0.9999997, z: 1.0000001}
+    - name: hyena_Tail_01_05SHJnt
+      parentName: hyena_Tail_01_04SHJnt
+      position: {x: -0.04694702, y: -0.0031146735, z: -0.0003880385}
+      rotation: {x: -0.030061243, y: -0.090483725, z: -0.21467933, w: 0.97201943}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000006}
+    - name: Hiena_LP
+      parentName: hyena_sv_ip_mx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hiena_SLP
+      parentName: hyena_sv_ip_mx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hiena_HP
+      parentName: hyena_sv_ip_mx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: RootMotion
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

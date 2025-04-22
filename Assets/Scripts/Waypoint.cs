@@ -1,6 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
+
 using UnityEngine;
 
 public class Waypoint : MonoBehaviour
@@ -24,10 +28,13 @@ public class Waypoint : MonoBehaviour
         return Vector3.Lerp(minBound, maxBound, Random.Range(0f, 1f));
     }
 
+#if UNITY_EDITOR
     void OnDrawGizmos()
     {
         GUIStyle style = new GUIStyle();
         style.normal.textColor = Color.white;
         Handles.Label(transform.position + Vector3.up, $"Branch: {branchRatio * 100}%", style);
     }
+#endif
+
 }

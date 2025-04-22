@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 2ed83f198fd452d41a52708de3729d9a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: freepik__background__40934_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1749
+        width: 800
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47ca8a096c03984596a4e7bc8b21b37
+      internalID: -735486583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_1
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1167
+        width: 946
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7441df61359f3174cb1b3e57c1cdad56
+      internalID: -2113831400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1632
+        width: 800
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1158cce60441f0e4b83ec54cbdda2adf
+      internalID: 846405905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1515
+        width: 800
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a5b74567cab4649afddd1fc6048d37
+      internalID: 653668910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1399
+        width: 799
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815bb17eeb5f0c24282efcd79fd782fe
+      internalID: 785097765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1282
+        width: 799
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ec3a92efb58844baea50dccb2fad49
+      internalID: -339414945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1165
+        width: 799
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9a0895ba939c741845a5e65acb432a
+      internalID: 608529512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 890
+        width: 618
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bfdf9fa5c05864b90adf293508bca1
+      internalID: -108628793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_8
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 890
+        width: 545
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0001280d0a967f4b8243ff88786796c
+      internalID: -1986848603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_9
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 890
+        width: 544
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2d8a2a5d498004aa30da9ec19a197b
+      internalID: 703723583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_10
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 631
+        width: 171
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b337e238f5642f440bf55e109857f774
+      internalID: 781266777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_11
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 631
+        width: 171
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebf29de2889d3848b2bb32d290b7d87
+      internalID: 40943713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_12
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 631
+        width: 171
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96ca544acf379449adf5e20977b2b1b
+      internalID: 628974881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_13
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 631
+        width: 171
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd5788eddf00da4a99c264ade2dd826
+      internalID: -735602912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_14
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 631
+        width: 171
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9751b1892a3560c449768409a68a1bf3
+      internalID: -389413655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_15
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 631
+        width: 171
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f9a8ae92c385042b2d5991ee3e1f8b
+      internalID: 856327557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_16
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 631
+        width: 171
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae156109520779f4788078c67af38340
+      internalID: -1583363637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_17
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 631
+        width: 171
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f1b3fdd21debc4f85c02f3efaecbba
+      internalID: 1124467905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_18
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 631
+        width: 171
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3189bee65ac664ea595cd71d5f35cf
+      internalID: -746379185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_19
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 378
+        width: 181
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004ac282eff97654ca83d8077ba4d238
+      internalID: 1962940533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_20
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 378
+        width: 181
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31203181e2af2f74085d4cdf60013964
+      internalID: 15674439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_21
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 378
+        width: 181
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a94c14b09b8cb40a9dda8cf753a0f6
+      internalID: 2004341609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_22
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 378
+        width: 181
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e455f9093eff5c34e8b389df62ca764c
+      internalID: 774864181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_23
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 378
+        width: 181
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e835665e6eb30624bac6b34e7d381197
+      internalID: 973687464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_24
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 378
+        width: 180
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0f68e36f91d2b41a20f3bd3b5e2de2
+      internalID: -803915458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_25
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 378
+        width: 181
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23299ecc49344ee4e9ae60b76a848edb
+      internalID: -697469538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_26
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 378
+        width: 181
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824318f3f763f8241adf8f3bfff849d0
+      internalID: 1145291229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_27
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 378
+        width: 181
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8825dcc10a561e3479d7141474218593
+      internalID: 522650868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_28
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 128
+        width: 207
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a0fe4c02cca4d4f99b11cf05d06a14
+      internalID: -926299648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_29
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 207
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92aba251cab27c45a4c0fc82e9a7893
+      internalID: 1133741384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_30
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 120
+        width: 156
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241dbfb489c769b46bf8a51c1a95ad1d
+      internalID: 317599453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_31
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 120
+        width: 163
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c3c15f789682849ab9357efaefaa8c
+      internalID: 1527049877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_32
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 132
+        width: 157
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941e9464278a51647867e197f06718ee
+      internalID: 377271779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_33
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 138
+        width: 157
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49305f9bd1af6d34cb44cb2d0f6c4e69
+      internalID: 177939413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freepik__background__40934_34
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 130
+        width: 580
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c5544156f2123478509dee74e29243
+      internalID: 677018034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      freepik__background__40934_0: -735486583
+      freepik__background__40934_1: -2113831400
+      freepik__background__40934_10: 781266777
+      freepik__background__40934_11: 40943713
+      freepik__background__40934_12: 628974881
+      freepik__background__40934_13: -735602912
+      freepik__background__40934_14: -389413655
+      freepik__background__40934_15: 856327557
+      freepik__background__40934_16: -1583363637
+      freepik__background__40934_17: 1124467905
+      freepik__background__40934_18: -746379185
+      freepik__background__40934_19: 1962940533
+      freepik__background__40934_2: 846405905
+      freepik__background__40934_20: 15674439
+      freepik__background__40934_21: 2004341609
+      freepik__background__40934_22: 774864181
+      freepik__background__40934_23: 973687464
+      freepik__background__40934_24: -803915458
+      freepik__background__40934_25: -697469538
+      freepik__background__40934_26: 1145291229
+      freepik__background__40934_27: 522650868
+      freepik__background__40934_28: -926299648
+      freepik__background__40934_29: 1133741384
+      freepik__background__40934_3: 653668910
+      freepik__background__40934_30: 317599453
+      freepik__background__40934_31: 1527049877
+      freepik__background__40934_32: 377271779
+      freepik__background__40934_33: 177939413
+      freepik__background__40934_34: 677018034
+      freepik__background__40934_4: 785097765
+      freepik__background__40934_5: -339414945
+      freepik__background__40934_6: 608529512
+      freepik__background__40934_7: -108628793
+      freepik__background__40934_8: -1986848603
+      freepik__background__40934_9: 703723583
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
