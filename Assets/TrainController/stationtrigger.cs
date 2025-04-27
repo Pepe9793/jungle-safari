@@ -7,7 +7,7 @@ public class TrainTriggerZone : MonoBehaviour
         TrainController train = other.GetComponent<TrainController>();
         if (train != null)
         {
-            train.StartDeceleration();
+            train.Speed = 0f; // Stop the train
         }
     }
 }
